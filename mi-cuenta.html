@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leiva Silva Franco Sebastian, Ramos Hernan Dario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="img/icono.jpg" type="image/png">
+    <title>Mi cuenta</title>
+</head>
+<body>
+    <header>
+        <div id="barra">
+            <p>3 Cuotas sin Interés en compras superiores a $30.000 con VISA y MASTERCARD</p>
+        </div>
+        <nav>
+            <div id="logo">
+                <a href="index.html" id="logoimg"><img src="/img/logo.png" width="40px" alt=""></a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a class="white" href="encuestas.html">ENCUESTAS</a></li>
+                    <li><a class="white" href="productos.html">PRODUCTOS</a></li>
+                    <li><a class="red" href="mi-cuenta.html">INICIAR SESIÓN</a></li>
+                </ul>
+            </div>
+            <div id="register">
+                <a href="mi-cuenta.html"><p>REGISTRATE</p></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio-registro">
+            <div id="panel">
+                <h1>PANEL DE CUENTA</h1>
+            </div>
+            <div id="contenedor-form">
+                <div class="cajas-form" id="caja-form">
+                    <form class="registration-form" action="datos.php" method="get">
+                        <p>Entrar</p>
+                        <div class="form-cajas">
+                            <input type="email" name="email" size="30" maxlength="30" placeholder="e-mail" id="email"  required="required"><br><br>
+                            <input type="password" name="clave" size="30" maxlength="24" placeholder="contraseña" required="required"><br><br>
+                            <button class="button-form" type="submit">Iniciar sesión</button>
+                            <button  type="submit" id="olvide">¿Olvidaste la contraseña?</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="cajas-form">
+                    <form class="registration-form" action="datos.php" method="get">
+                        <p>Registro</p>
+                        <div class="form-cajas">
+                            <input type="email" name="email" size="30" maxlength="30" placeholder="e-mail" id="email"  required="required"><br><br>
+                            <input type="text" name="apellido y nombre" size="30" maxlength="30" placeholder="nombre y apellido"  id="apellido y nombre" required="required"><br><br>
+                            <input type="password" name="clave" size="30" maxlength="24" placeholder="contraseña" required="required"><br><br>
+                        </div>
+                        <select id="year" name="year">
+                            <option value="">YYYY</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                          </select>
+                        <select id="day" name="day">
+                            <option value="">DD</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select id="month" name="month">
+                            <option value="">MM</option>
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                        </select><br><br>
+                        <button class="button-form" type="submit">Crear una cuenta</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contacto1">
+            <h4>Puma: calzado, accesorios y ropa deportiva</h4>
+        <p>Para la práctica de un deporte o el entrenamiento de cualquier disciplina, es importante contar con la ropa y el calzado adecuados. Estar cómodos y tener flexibilidad en los movimientos es fundamental para lograr los resultados esperados. En PUMA vas a conseguir todo lo que necesitás para tus <br> próximos retos.</p>
+        <p>La ropa deportiva más glamorosa la podés comprar en PUMA Argentina. Contamos con líneas exclusivas con las últimas tendencias, donde el diseño, el color y la versatilidad brindan lo que el cuerpo precisa para superarse a sí mismo.</p>
+        <p>En cuanto al calzado, también contás con lo último. Optá por modelos con la tecnología más novedosa que aportan comodidad, flexibilidad y amortiguación. De esta forma, cada paso tuyo dejará huella.</p>
+        <p>También podés comprar los accesorios deportivos más adecuados para tu actividad, desde mochilas, bolsos, riñoneras, gorras, brazaletes. Solo queda que elijas cuál es el más adecuado para vos.</p>
+        <p>Navegá nuestro sitio y llevate todo lo que necesitás de PUMA para estar equipado. Afrontá tu actividad deportiva favorita junto con los mejores complementos y que nada te detenga.</p>
+        </div>
+        <div id="contacto">
+            <div id="footer-cont">
+                <h5>Ayuda</h5>
+                <div id="footer-box">
+                    <ul>
+                        <li><a href="#">Contactanos</a></li>
+                        <li><a href="#">Seguí tu pedido</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Metodos de pago y envios</a></li>
+                        <li><a href="#">Cuidado de los productos</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                        <li><a href="#">Tiendas</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                        <li><a href="#">Guía de talles</a></li>
+                        <li><a href="#">Botón de arrepentimiento</a></li>
+                        <li><a href="#">Defensa de las y los consumidores</a></li>
+                        <li><a href="#">mapa del sitio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="map">
+                <a href="https://www.google.com/maps/place/PUMA+Store/@-29.4019042,-66.8266212,16.69z/data=!4m6!3m5!1s0x9427da6e82e4eec5:0x2e0e09675cee4693!8m2!3d-29.4026079!4d-66.8237656!16s%2Fg%2F11c2kc8hg5?entry=ttu" target="_blank"><div id="img4"></div></a>
+                <p>Av. Juan Manuel de Rosas · 0380 414-0918</p>
+            </div>
+        </div>
+        <div id="copy">
+            <p>© PUMA Todos los derechos reservados, 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

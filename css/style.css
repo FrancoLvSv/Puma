@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+#barra{
+    background-color: #AE946D;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#barra p{
+    color: white;
+    font-size: 0.7em
+}
+
+nav{
+    background-color: #181818;
+    width: 100%;
+    height: 70px;
+}
+#logo{
+    
+    height: 70px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+#logoimg{
+    margin-left: 20px;
+}
+#menu{
+    
+    width: 40%;
+    height: 70px;
+    float: left;
+
+}
+#menu li{
+    height: 40px;
+    padding-top: 25px;
+    list-style-type: none;
+    float: left;
+    margin: 0 35px;
+    font-size: 0.8em;
+}
+#menu li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#menu a{
+    
+    text-decoration: none;
+
+}
+.white{
+    color: white;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+#register{
+    background-color: rgb(133, 12, 12);
+    width: 10%;
+    height: 70px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#register a{
+    text-decoration: none;
+    color: white;
+}
+#register a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+main{
+    background-image: url(/img/fondo.png);
+    background-position: center;
+    background-size: cover;
+}
+#banner{
+    background-image: url(/img/banner.jpg);
+    width: 100%;
+    height: 450px;
+    margin: 0 auto 15px;
+}
+#banner:hover{
+    transform: scale(1.1);
+    transition: 25s;
+}
+#contenedor{
+    
+    width: 75%;
+    height: 200px;
+    margin: 0 100px;
+    padding-top: 170px;
+}
+#contenedor h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+#contenedor p{
+    color: white;
+}
+#botton{
+    background-color: white;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#botton:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#botton a{
+    font-size: 0.6em;
+    text-decoration: none;
+    color: black;
+}
+#catalogo{
+    width: 75%;
+    height: 400px;
+    margin: 0 auto 15px;
+}
+#catalogo h2{
+    padding-top: 20px;
+    text-align: center;
+}
+#catalogo a{
+    text-decoration: none;
+}
+#contenedor2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+}
+.principal{
+    color: black;
+}
+.secundario{
+    color: rgb(180, 82, 82);
+}
+.cajas{
+    width: 230px;
+    height: 210px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.cajas p{
+    margin-top: 5px;
+}
+.imgs{
+    box-shadow:rgb(212, 212, 212) 2px 2px 2px;
+}
+.cajas:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#img1{
+    background-image: url(/img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#img2{
+    background-image: url(/img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#img3{
+    background-image: url(/img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#estilos{
+    background-image: url(/img/estilos.jpg);
+    width: 100%;
+    height: 300px;
+    margin: 0 auto 15px;
+}
+#estilos:hover{
+    transform: scale(1.1);
+    transition: 5s;
+}
+#contenedor3{
+    width: 260px;
+    height: 240px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+#contenedor3 h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+#caja{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.botton2{
+    background-color: rgb(0, 0, 0);
+    width: 110px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.botton2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.botton2 a{
+    text-decoration: none;
+}
+.botton2 p{
+    color: white;
+    font-size: 0.5em;
+}
+
+#miembros{
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+#contenedor4{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cajas2{
+    background-color: rgb(250, 250, 250);
+    width: 200px;
+    height: 240px;
+    box-shadow:rgb(212, 212, 212) 2px 2px 2px;
+}
+.cajas2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#perfil{
+    background-image: url(/img/Desarrollador.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 160px;
+}
+#perfil2{
+    background-image: url(/img/CEO.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 160px;
+}
+.txt2 p{
+    border-top: solid rgb(172, 172, 172) 1px;
+    width: 60%;
+    margin: 6px auto;
+    color: rgb(95, 95, 95);
+    padding-top: 2px;
+
+}
+.txt2{
+    margin: 6px auto;
+
+}
+footer{
+    background-color: #181818;
+    width: 100%;
+    height: 600px;
+    color: white;
+    padding-top: 10px;
+}
+footer h4{
+   margin: 30px;
+    margin-bottom: 10px;
+}
+#contacto1 p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+#contacto{
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+}
+#footer-cont{
+    width: 20%;
+    margin-top: 40px;
+    float: left;
+}
+#footer-box{
+    margin-top: 6px;
+    border-top: solid rgb(255, 255, 255) 1px;
+}
+#footer-box li{
+    list-style-type: none;
+    margin-top: 6px;
+    font-size: 0.6em;
+}
+#footer-box a{
+    text-decoration: none;
+    color: white;
+}
+#map{
+    margin-top: 40px;
+    width: 300px;
+    height: 210px;
+    float: right;
+    margin-right: 60px;
+}
+#map p{
+    font-size: 0.6em;
+    margin-top: 4px;
+}
+#img4{
+    background-image: url(/img/map.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+#copy{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: solid rgb(117, 117, 117) 1px;
+    font-size: 0.7em;
+}
+#inicio-registro{
+  width: 100%;
+  height: 700px;  
+}
+#panel{
+    width: 100%;
+    height: 70px;
+    background-color: #eeeeee;
+}
+#panel h1{
+    padding: 20px 140px;
+}
+#contenedor-form{
+    width: 75%;
+    padding-top: 30px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.cajas-form{
+    width: 45%;
+    height: 330px;
+}
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-cajas {
+    margin-bottom: 15px;
+}
+.form-cajas input {
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+}
+
+.button-form{
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #757575;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.button-form:hover {
+    background-color: #999999;
+}
+#olvide{
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    color: #797979;
+    background-color: transparent;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-bottom: solid #757575 1px;
+}
+
+#caja-form{
+    border-right: solid #b1b1b1 1px;
+    padding-right: 20px;
+}
+#encuesta{
+    width: 80%;
+    height: 780px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#encuesta h1{
+    padding: 10px;
+}
+#encuesta p{
+    font-size: 0.9em;
+    padding-bottom: 20px;
+}
+#encuesta h3{
+    padding: 20px 0;
+}
+#button-form1{
+    margin: 50px 50%;
+    width: 14%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #757575;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+#button-form1:hover {
+    background-color: #999999;
+}
+#banner2{
+    background-image: url(/img/borussia.webp);
+    width: 100%;
+    height: 350px;
+    margin: 0 auto 15px;
+}
+#banner2:hover{
+    transform: scale(1.1);
+    transition: 25s;
+}
+#contenedor5{
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    padding-top: 100px;
+
+}
+#contenedor5 h2{
+    font-size: 2.8em;
+    margin-bottom: 5px;
+    color: white;
+}
+#contenedor5 p{
+    color: white;
+}
+.contenedores{
+    background-color: rgba(131, 131, 131, 0.459);
+    width: 75%;
+    height: 400px;
+    margin: 0 auto 20px;
+}
+
+.cont-ind{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+}
+.cajas-product{
+    width: 230px;
+    height: 210px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.cajas-product p{
+    margin-top: 5px;
+}
+.cajas-product a{
+    text-decoration: none;
+}
+.imgs-product{
+    box-shadow:rgb(138, 138, 138) 2px 2px 2px;
+}
+.cajas-product:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#imgd1{
+    background-image: url(/img/Camiseta.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#imgd2{
+    background-image: url(/img/Sudadera.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#imgd3{
+    background-image: url(/img/short.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#imga1{
+    background-image: url(/img/gorra.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#imga2{
+    background-image: url(/img/pelota.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+#imga3{
+    background-image: url(/img/rinonera.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 150px;
+}
+.contenedores h3{
+    border-bottom: solid rgb(214, 214, 214) 2px;
+    margin: 5px;
+}
