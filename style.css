@@ -31,7 +31,7 @@ a{
 .logo{
     
     height: 70px;
-    width: 50%;
+    width: 45%;
     float: left;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@ a{
 }
 .menu{
     
-    width: 40%;
+    width: 45%;
     height: 70px;
     float: left;
 
@@ -92,14 +92,15 @@ a{
     transition: 0.5s;
 }
 main{
-    background-image: url(/img/fondo.png);
+    background-image: url(img/fondo.png);
     background-position: center;
     background-size: cover;
 }
 #banner{
-    background-image: url(/img/banner.jpg);
+    background-image: url(img/banner.jpg);
+    background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 480px;
     margin: 0 auto 15px;
 }
 #banner:hover{
@@ -145,15 +146,16 @@ main{
     width: 75%;
     height: 270px;
     margin: 0 auto 15px;
+    background-color: #b91818;
     /* overflow: hidden;
     position: relative; */
 }
-#catalogo h2{
-    padding-top: 20px;
-    text-align: center;
-}
 #catalogo a{
     text-decoration: none;
+}
+h5{
+    text-align: center;
+    font-size: 1.8em;
 }
 #contenedor2{
     width: 85%;
@@ -194,28 +196,29 @@ main{
     transition: 0.5s;
 }
 #img1{
-    background-image: url(/img/img1.jpg);
+    background-image: url(img/img1.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #img2{
-    background-image: url(/img/img2.jpg);
+    background-image: url(img/img2.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #img3{
-    background-image: url(/img/img3.jpg);
+    background-image: url(img/img3.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #estilos{
-    background-image: url(/img/estilos.jpg);
+    background-image: url(img/estilos.jpg);
+    background-size: cover;
     width: 100%;
     height: 300px;
     margin: 0 auto 15px;
@@ -295,14 +298,14 @@ main{
     transition: 0.5s;
 }
 #perfil{
-    background-image: url(/img/Desarrollador.jpg);
+    background-image: url(img/Desarrollador.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 160px;
 }
 #perfil2{
-    background-image: url(/img/CEO.jpg);
+    background-image: url(img/CEO.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -374,7 +377,7 @@ footer h4{
     margin-top: 4px;
 }
 #img4{
-    background-image: url(/img/map.png);
+    background-image: url(img/map.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -526,7 +529,7 @@ span{
     background-color: #999999;
 }
 #banner2{
-    background-image: url(/img/borussia.webp);
+    background-image: url(img/borussia.webp);
     width: 100%;
     height: 350px;
     margin: 0 auto 15px;
@@ -584,42 +587,42 @@ span{
     transition: 0.5s;
 }
 #imgd1{
-    background-image: url(/img/Camiseta.jpg);
+    background-image: url(img/Camiseta.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #imgd2{
-    background-image: url(/img/Sudadera.jpg);
+    background-image: url(img/Sudadera.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #imgd3{
-    background-image: url(/img/short.jpg);
+    background-image: url(img/short.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #imga1{
-    background-image: url(/img/gorra.jpg);
+    background-image: url(img/gorra.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #imga2{
-    background-image: url(/img/pelota.jpg);
+    background-image: url(img/pelota.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
     height: 150px;
 }
 #imga3{
-    background-image: url(/img/rinonera.jpg);
+    background-image: url(img/rinonera.jpg);
     background-size: cover;
     background-position: center;
     width: 230px;
@@ -659,9 +662,34 @@ span{
     footer{
         height: 1200px;
     }
-
-}
-@media screen and (max-width: 500px) {
+    #estilos{
+        color: rgb(250, 65, 65);
+    }
+    .register{
+        font-size: 0px;
+        background-color: transparent;
+        
+    }
+    .logo{
+        width: 20%;
+    }
+    .menu{
+        width: 80%;
+    }
+    .menu li{
+        height: 40px;
+        padding-top: 25px;
+        display: block;
+        float: left;
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+    #panel{
+        padding-bottom: 4%;
+        text-align: center;
+    }
+}   
+@media screen and (max-width: 630px) {
     section{
         height: 800px;
     }
@@ -676,7 +704,7 @@ span{
         height: 730px;
     }
     #contenedor4{
-        height: 600px;
+        height: 700px;
     }
     .cajas2{
         display: flex;
@@ -686,16 +714,44 @@ span{
     footer{
         height: 1200px;
     }
+    .logo{
+        width: 10%;
+    }
     .menu{
-        font-size: 0px;
-        
+        width: 90%;
+    }
+    .menu li{
+        height: 40px;
+        padding-top: 25px;
+        display: block;
+        float: left;
+        margin: 0 10px;
+        font-size: 0.8em;
     }
     .register{
-        width: 100%;
+        width: 0%;
+        font-size: 0px;
+        background-color: transparent;
     }
-    #panel{
-        padding-bottom: 100px;
-        text-align: center;
+}
+@media screen and (max-width: 1200px) {
+    .logo{
+        width: 30%;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu li{
+        height: 40px;
+        padding-top: 25px;
+        display: block;
+        float: left;
+        margin: 0 10px;
+        font-size: 0.8em;
+    }
+    .register{
+        font-size: 0px;
+        background-color: transparent;
     }
 }
 /* fin del responsive */
