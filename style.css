@@ -12,8 +12,6 @@
     align-items: center;
     justify-content: center;
 }
-/* prueba de responsive */
-/* fin del responsive */
 .barra p{
     color: white;
     font-size: 0.7em
@@ -433,7 +431,7 @@ footer h4{
 .form-cajas {
     margin-bottom: 15px;
 }
-.form-cajas input {
+.form-cajas input{
     background-color: transparent;
     width: 100%;
     padding: 10px;
@@ -443,7 +441,17 @@ footer h4{
     border-radius: 0;
     outline: none;
 }
-
+#select-option select {
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+    float: left;
+}
 .button-form{
     width: 48%;
     padding: 10px;
@@ -454,7 +462,11 @@ footer h4{
     border-radius: 1px;
     cursor: pointer;
 }
-
+#create{
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
 .button-form:hover {
     background-color: #999999;
 }
@@ -472,8 +484,9 @@ footer h4{
 }
 
 #caja-form{
-    border-right: solid #b1b1b1 1px;
+    border-left: solid #b1b1b1 1px;
     padding-right: 20px;
+    height: 60%;
 }
 #encuesta{
     width: 80%;
@@ -609,8 +622,8 @@ footer h4{
     border-bottom: solid rgb(214, 214, 214) 2px;
     margin: 5px;
 }
-
-@media screen and (max-width: 500px) {
+/* prueba de responsive */
+@media screen and (max-width: 900px) {
     section{
         height: 800px;
     }
@@ -621,9 +634,13 @@ footer h4{
     section#miembros {
         height: 700px;
     }
-    #contenedor2, .contenedores{
+    #contenedor2{
         height: 700px;
     }
+    .contenedores{
+        height: 630px;
+    }
+
     #contenedor4{
         height: 600px;
     }
@@ -637,3 +654,40 @@ footer h4{
     }
 
 }
+@media screen and (max-width: 500px) {
+    section{
+        height: 800px;
+    }
+    .cajas{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section#miembros {
+        height: 700px;
+    }
+    #contenedor2, .contenedores{
+        height: 730px;
+    }
+    #contenedor4{
+        height: 600px;
+    }
+    .cajas2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    footer{
+        height: 1200px;
+    }
+    .menu{
+        font-size: 0px;
+        
+    }
+    .register{
+        width: 100%;
+    }
+    #panel{
+        padding-bottom: 70px;
+    }
+}
+/* fin del responsive */

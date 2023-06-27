@@ -35,7 +35,7 @@
                 <h1>PANEL DE CUENTA</h1>
             </div>
             <div id="contenedor-form">
-                <div class="cajas-form" id="caja-form">
+                <div class="cajas-form">
                     <form class="registration-form" action="datos.php" method="get">
                         <p>Entrar</p>
                         <div class="form-cajas">
@@ -46,7 +46,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="cajas-form">
+                <div class="cajas-form" id="caja-form">
                     <form class="registration-form" action="datos.php" method="get">
                         <p>Registro</p>
                         <div class="form-cajas">
@@ -54,26 +54,28 @@
                             <input type="text" name="apellido y nombre" size="30" maxlength="30" placeholder="nombre y apellido"  id="apellido y nombre" required="required"><br><br>
                             <input type="password" name="clave" size="30" maxlength="24" placeholder="contraseña" required="required"><br><br>
                         </div>
-                        <select id="year" name="year">
-                            <option value="">YYYY</option>
-                            <option value="2000">2000</option>
-                            <option value="2001">2001</option>
-                            <option value="2002">2002</option>
-                            <option value="2003">2003</option>
-                          </select>
-                        <select id="day" name="day">
-                            <option value="">DD</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
-                        <select id="month" name="month">
-                            <option value="">MM</option>
-                            <option value="1">Enero</option>
-                            <option value="2">Febrero</option>
-                            <option value="3">Marzo</option>
-                        </select><br><br>
-                        <button class="button-form" type="submit">Crear una cuenta</button>
+                        <div id="select-option">
+                            <select id="year" name="year">
+                                <option value="">YYYY</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                              </select>
+                            <select id="day" name="day">
+                                <option value="">DD</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select id="month" name="month">
+                                <option value="">MM</option>
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                            </select><br><br>
+                        </div>
+                        <button class="button-form" id="create" type="submit">Crear una cuenta</button>
                     </form>
                 </div>
             </div>
