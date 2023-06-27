@@ -332,44 +332,44 @@ footer h4{
    margin: 30px;
     margin-bottom: 10px;
 }
-#contacto1 p{
+.contacto1 p{
     margin-left: 30px;
     margin-bottom: 10px;
     font-size: 0.6em;
 }
-#contacto{
+.contacto{
 
     width: 90%;
     height: 300px;
     padding: 30px;
     margin: 0 auto;
 }
-#footer-cont{
+.footer-cont{
     width: 20%;
     margin-top: 40px;
     float: left;
 }
-#footer-box{
+.footer-box{
     margin-top: 6px;
     border-top: solid rgb(255, 255, 255) 1px;
 }
-#footer-box li{
+.footer-box li{
     list-style-type: none;
     margin-top: 6px;
     font-size: 0.6em;
 }
-#footer-box a{
+.footer-box a{
     text-decoration: none;
     color: white;
 }
-#map{
+.map{
     margin-top: 40px;
     width: 300px;
     height: 210px;
     float: right;
     margin-right: 60px;
 }
-#map p{
+.map p{
     font-size: 0.6em;
     margin-top: 4px;
 }
@@ -380,7 +380,7 @@ footer h4{
     width: 100%;
     height: 200px;
 }
-#copy{
+.copy{
     width: 100%;
     height: 30px;
     text-align: center;
@@ -389,6 +389,13 @@ footer h4{
     font-size: 0.7em;
     position: absolute;
     bottom: 0;
+}
+.social{
+    width: 160px;
+    margin-left: auto;
+}
+span{
+    margin-left: 10px;
 }
 #inicio-registro{
   width: 100%;
@@ -687,7 +694,8 @@ footer h4{
         width: 100%;
     }
     #panel{
-        padding-bottom: 70px;
+        padding-bottom: 100px;
+        text-align: center;
     }
 }
 /* fin del responsive */
