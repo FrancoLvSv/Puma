@@ -662,9 +662,6 @@ span{
     footer{
         height: 1200px;
     }
-    #estilos{
-        color: rgb(250, 65, 65);
-    }
     .register{
         font-size: 0px;
         background-color: transparent;
@@ -752,6 +749,12 @@ span{
     .register{
         font-size: 0px;
         background-color: transparent;
+    }
+    #estilos{
+        background-color: transparent;
+        background-size: cover;
+        background-position:center top;
+
     }
 }
 /* fin del responsive */
